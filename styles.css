@@ -1,0 +1,181 @@
+body {
+background: #FFFFFF;
+width: 1280px;
+height: 864px;
+position: relative;
+font-family: 'Maven Pro', sans-serif;
+font-size: 16px;
+}
+
+#wrapper {
+    background: #f6f6f6;
+    border: 7px solid #9d75bc;
+    box-sizing: border-box;
+    width: 528px;
+    height: 692px;
+    left: 376px;
+    top: 86px;
+    position: absolute;
+}
+
+#head-block {
+    position: absolute;
+    width: 514px;
+    height: 197px;
+    /* left: 377px; */
+    /* top: 86px; */
+    background: rgba(196, 196, 196, 0.19);
+}
+
+#app-name {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #000000;
+    /* padding-bottom: 0; */
+}
+
+#app-nick {
+    font-style: normal;
+    font-weight: 500;
+    color: #9d75bc;
+}
+
+#app-motto {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 14px;
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    left: 208px;
+    top: 50px;
+
+}
+
+/* BOOK CONTENT STYLING */
+#book {
+    position: absolute;
+    width: 470px;
+    height: 348px;
+    top: 310px;
+    left: 404px;
+    background: rgba(196, 196, 196, 0.19);
+}
+
+.book-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+aside {
+    margin-right: 21px;
+}
+.book-header {
+    padding-left: 28px;
+}
+
+
+
+.search-box {
+    position: absolute;
+    left: 50px;
+    top: 105px;
+}
+
+input[type="search"] {
+    width: 400px;
+    height: 54px;
+    background: #FFFFFF;
+    border: #000000;
+    opacity: 0.8;
+    padding-left: 19px;
+
+    -webkit-appearance: none;
+}
+
+input[type="text"] {
+    width: 276px;
+    height: 54px;
+    background: #FFFFFF;
+    border: #000000;
+    opacity: 0.8;
+    padding-left: 19px;
+
+    -webkit-appearance: none;
+}
+
+input::placeholder {
+    color: #9d75bc;
+    opacity: 0.8;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+ul li {
+    /* display: inline-block; */
+    list-style: none;
+    /* color: #9d75bc; */
+    padding: 10px 23px 10px 10px;
+    background-color: #F6F6F6;
+    margin-bottom: 12px;
+    border-left: 4px solid #C4C4C4;
+
+}
+
+.delete-btn{
+    margin-left: 30px;
+}
+
+
+
+.delete-btn {
+    width: 69px;
+    height: 35px; 
+    font-family: inherit;
+    font-size: 100%;
+    background: #9d75bc;
+    color: #F6F6F6;
+    margin-bottom: 16px;
+    /* margin-left: 300px; */
+
+
+
+
+    -webkit-appearance: none;
+}
+.add-box {
+    
+    text-align: center;
+    padding-top: 23px;
+}
+
+.add-btn {
+    width: 125px;
+    height: 56px; 
+    font-family: inherit;
+    font-size: 100%;
+    background: #9d75bc;
+    color: #F6F6F6;
+
+
+
+    -webkit-appearance: none;
+}
+
+footer {
+    position: absolute;
+    width: 514px;
+    height: 99px;
+    left: 383px;
+    top: 672px;
+    background: rgba(196, 196, 196, 0.19);
+
+    
+}
